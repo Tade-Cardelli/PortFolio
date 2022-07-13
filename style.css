@@ -17,17 +17,6 @@ body{
     
 }
 
-header{
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    height: 75px;
-    align-items: center;
-    padding: 10px;
-    
-    
-}
-
 nav a:hover{
     color: #8c8c8c;
 }
@@ -38,6 +27,27 @@ footer{
     
     
 }
+.navbar-collapse{
+    flex-grow: initial;
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 1.3rem;
+    margin-right: 20px;
+}
+.navbar-brand{
+    font-family:calibre,Inter,sans-serif; 
+    letter-spacing: 1px;
+    padding-left: 120px;
+    font-size: 2rem;
+}
+
 .footer{
     display: flex;
     justify-content: space-evenly;
@@ -222,7 +232,7 @@ footer{
 
 
 
-@media screen and (max-width:320px) {
+@media  only screen and (max-width:320px) {
 
     header{
         border-bottom: none;
