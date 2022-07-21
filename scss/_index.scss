@@ -1,0 +1,42 @@
+@import "variables";
+
+.fondo{
+    background-image:url(/imagenes/fonde-index.JPG);
+}
+
+.grid_conteiner{
+    display: grid;
+    height: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto auto auto;
+    align-content: space-between;
+    margin-top: 15%;
+    margin-left: 5%;
+    
+    &__item{
+        font-size: 2rem;
+        color: #fff 
+    }
+
+    &__itemd{
+        font-size: 4rem;
+        color: #fff
+    }
+}
+/* .grid_conteiner__item{
+    font-size: 2rem;
+    color: #fff 
+    
+}
+   */
+
+/* .grid_conteiner__itemd{
+    font-size: 4rem;
+    color: #fff
+    
+} */
+
+.animate__fadeInLeft{
+    margin-top: 15%;
+    margin-left: 5%;
+}
