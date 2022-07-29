@@ -1,9 +1,8 @@
 @import "variables";
 
-.fondo{
-    background-image:url(/imagenes/fonde-index.JPG);
+#fondo-index{
+    background-image:url(../imagenes/fonde-index.JPG);
 }
-
 .grid_conteiner{
     display: grid;
     height: 100px;

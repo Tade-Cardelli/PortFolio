@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixing";
 .content{
     max-width: 1170px;
     margin-left: auto;
@@ -9,7 +10,7 @@
 .logo{
     text-align: center;
     font-size: 3em;
-    color: #000;
+    color: map-get($colores, "color-principal");
 }
 .contact-contenedor{
     margin-left: 30%;
@@ -60,11 +61,12 @@
 }
 
 .contact-form form button{
-    background-color: #000 ;
+    @include form-button(#000,#fff);
+/*     background-color: #000 ;
     color: #fff;
     border:0;
     text-transform:uppercase;
-    padding:1em;
+    padding:1em; */
 }
 .contact-form form button:hover,
 .contact-form form button:focus{

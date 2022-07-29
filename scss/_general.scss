@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixing";
 *{
     margin:0;
     padding:0;
@@ -59,18 +60,14 @@ footer{
     margin:20px;    
 }
 .footer__links{
-    color:$color-texto;
+    color:$color-secundario;
 }
 
 
 /* Titulos de todos los html */
 .quien{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    margin-top:5%;
-    color: $color-texto;
+    @include titulos (#000, flex);
+
 }
 
 .asd{

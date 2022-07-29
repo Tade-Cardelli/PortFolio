@@ -47,7 +47,7 @@ footer {
   margin: 20px; }
 
 .footer__links {
-  color: #000; }
+  color: #fff; }
 
 /* Titulos de todos los html */
 .quien {
@@ -61,8 +61,8 @@ footer {
 .asd {
   border-bottom: solid 3px #000; }
 
-.fondo {
-  background-image: url(/imagenes/fonde-index.JPG); }
+#fondo-index {
+  background-image: url(../imagenes/fonde-index.JPG); }
 
 .grid_conteiner {
   display: grid;
@@ -196,7 +196,12 @@ footer {
   color: #fff;
   border: 0;
   text-transform: uppercase;
-  padding: 1em; }
+  padding: 1em;
+  /*     background-color: #000 ;
+    color: #fff;
+    border:0;
+    text-transform:uppercase;
+    padding:1em; */ }
 
 .contact-form form button:hover,
 .contact-form form button:focus {

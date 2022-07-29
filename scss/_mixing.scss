@@ -1,0 +1,18 @@
+@import "variables";
+
+@mixin form-button ($color-principal,$color-secundario){
+    background-color: $color-principal ;
+    color: $color-secundario;
+    border:0;
+    text-transform:uppercase;
+    padding:1em;
+}
+
+@mixin titulos($color-texto,$flex){
+    display: $flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top:5%;
+    color: $color-texto;
+}
