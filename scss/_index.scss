@@ -12,14 +12,17 @@
     margin-top: 15%;
     margin-left: 5%;
     
+    
     &__item{
         font-size: 2rem;
-        color: #fff 
+        color: #fff;
+        font-weight: 510; 
     }
 
     &__itemd{
         font-size: 4rem;
-        color: #fff
+        color: #fff;
+        font-weight: 550;
     }
 }
 

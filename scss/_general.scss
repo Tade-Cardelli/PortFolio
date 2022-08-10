@@ -15,14 +15,12 @@ a{
 body{
     
     background-color: $color-secundario;
-    font-family: calibre,Inter,sans-serif;
+    font-family: 'Calibre','Inter',sans-serif;
     position: relative;
     min-height: 100vh;      
 }
 
-
-
-nav a:hover{
+a:hover{
     color: #8c8c8c;
 }
 
@@ -63,13 +61,13 @@ footer{
     color:$color-secundario;
 }
 
-
 /* Titulos de todos los html */
 .quien{
     @include titulos (#000, flex);
-
 }
 
 .asd{
+    font-family: 'Oswald', sans-serif;
     border-bottom:solid 3px #000;
+    font-weight: 550;
 }
